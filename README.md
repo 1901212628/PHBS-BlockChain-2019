@@ -1,4 +1,4 @@
-# PHBS-BlockChain-2019
+# PHBS_BlockChain_2019
 **BlockChain Homework_1 : Scrooge Coin**  
 Name : JiaXi Ren       
 名字：任嘉曦
