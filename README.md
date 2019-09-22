@@ -5,7 +5,7 @@ Name : JiaXi Ren
 ## Homework_1 attention
 1.this project's test cases are TestClass.  
 2.For simplification,I add 2 methods in Transaction.java `public static void genSignature()`  for generating public key,private key and signature and  `public void TXsignature(RSAPrivateKey privatekey, int inputindex)` for adding signature and generate transaction hash.
-## preparing for homework solution
+## Preparing for homework solution
 * Before coding,I read and realize the proposed java class and make notes bellow.I also add two methods in Transaction.java for simplifying my following solution of the homework.
 ## Sumary for Homework_1 solution
 ### 1.TxHandler
@@ -23,3 +23,4 @@ Name : JiaXi Ren
 * **test6()** is an outpus-greater-than-inputs test,which means someone give exceeding coins to others he don't own.Verifying methods are the same as above.
 * **test7()**  specifily test `public  Transaction[] handleTxs(Transaction[] possibleTxs)` by adding a valid chain of transactions and some invalid or unrelated transactions in mess order,then verifying the valid Transaction[] and their numbers.
 ## Test result
+* **Testing Results:** The Functions I created for verifying the 7 tests all pass and get expected results. Here is a screenshot in IntelliJ IDEA IDE:
