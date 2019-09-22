@@ -13,7 +13,7 @@ Name : JiaXi Ren
 * for the third task,I learn and use fixed point algorithm for decreasing a time difficulty of the function.Specially,we do not need to oversee the longest valid chain.Instead,we only verify the valid tansactions in a FCFS order.After verifying,a new utxo will add in utxopool and the previous one will be removed. 
 ### 2.TestClass
 **Seven independent tests are in TestClass.java for testing**
-* **test1()** simply create a valid coinbase transaction and a valid normal transaction,then verify its validation with`public boolean isValidTx(Transaction tx)`and return the numbers of valid tansaction[] with`public  Transaction[] handleTxs(Transaction[] possibleTxs)`.
+* **test1()** simply create a valid coinbase transaction and a valid normal transaction,then verify its validation with`public boolean isValidTx(Transaction tx)`and return the numbers of valid tansaction[] with`public  Transaction[] handleTxs(Transaction[] possibleTxs)`. 
 * **test2()** is a double spending attack test,suppose Scrooge spend the same coins paying to different people,then verify its validation with`public boolean isValidTx(Transaction tx)`and return the numbers of valid tansaction[] with`public  Transaction[] handleTxs(Transaction[] possibleTxs)`.
 * **test3()** is a neative output test,which means that Scrooge give negative numbers of coins to others.Verifying methods are the same as above.
 * **test4()** is an invalid signature test,which means that a transaction is signed by unrelated person.Verifying methods are the same as above.
