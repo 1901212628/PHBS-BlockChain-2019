@@ -3,7 +3,7 @@
 Name : JiaXi Ren       
 名字：任嘉曦
 ## Homework_1 attention
-1.this project's test cases are TestClass 
+1.this project's test cases are TestClass  
 2.For simplification,I add 2 methods in Transaction.java `public static void genSignature()`  for generating public key,private key and signature and  `public void TXsignature(RSAPrivateKey privatekey, int inputindex)` for adding signature and generate transaction hash.
 ## Sumary for Homework_1 solution
 ### 1.TxHandler
