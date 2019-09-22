@@ -3,8 +3,8 @@
 Name : JiaXi Ren       
 名字：任嘉曦
 ## Homework_1 attention
-1.this project's test cases are TestClass.  
-2.For simplification,I add 2 methods in Transaction.java `public static void genSignature()`  for generating public key,private key and signature and  `public void TXsignature(RSAPrivateKey privatekey, int inputindex)` for adding signature and generate transaction hash.
+* this project's test cases are TestClass.  
+* For simplification,I add 2 methods in Transaction.java `public static void genSignature()`  for generating public key,private key and signature and  `public void TXsignature(RSAPrivateKey privatekey, int inputindex)` for adding signature and generate transaction hash.
 ## Preparing for homework solution
 * Before coding,I read and realize the proposed java class and make notes bellow.I also add two methods in Transaction.java for simplifying my following solution of the homework.
 ## Sumary for Homework_1 solution
