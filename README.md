@@ -5,6 +5,9 @@ Name : JiaXi Ren
 ## Homework_1 description
 * The homework need us to finish four part:create a public ledger that record current UTXO set by adding UTXOPool(upool);finish a function that verify the validation of the transactions;finish a function that digest unordered transactions and return legal ones;bulid a test class to test all your work.
 * As we learn in the class,ScroogeCoin avoid double spend attack problem compared to GoofyCoin result in centralizing environment.Two kinds of transactions:CreateCoins transaction and PayCoins transaction are included.Every transaction's validation and implement are confirmed by Scrooge,and the chain release by Scrooge too.Only Scrooge can create new ScroogeCoins based on CreateCoins transaction.
+## Homework_1 questions
+* As a highly centralize currency system,every kinds of transactions should be signed by Scrooge before posting to the chain,while in the given codes of our homework seems to forget this step.
+* The order of the arraylist of outputs,especially for multi-output transaction,is fuzzy for its rule.In which order should we place them?
 ## Homework_1 attention
 * this project's test cases are TestClass.  
 * For simplification,I add 2 methods in Transaction.java `public static void genSignature()`  for generating public key,private key and signature and  `public void TXsignature(RSAPrivateKey privatekey, int inputindex)` for adding signature and generate transaction hash.
