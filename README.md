@@ -24,3 +24,5 @@ Name : JiaXi Ren
 * **test7()**  specifily test `public  Transaction[] handleTxs(Transaction[] possibleTxs)` by adding a valid chain of transactions and some invalid or unrelated transactions in mess order,then verifying the valid Transaction[] and their numbers.
 ## Test result
 * **Testing Results:** The Functions I created for verifying the 7 tests all pass and get expected results. Here is a screenshot in IntelliJ IDEA IDE:
+
+![Image of resultimage](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/resultimage.png)
