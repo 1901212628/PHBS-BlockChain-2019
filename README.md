@@ -9,7 +9,7 @@ Name : JiaXi Ren
 * As a highly centralize currency system,every kinds of transactions should be signed by Scrooge before posting to the chain,while in the given codes of our homework seems to forget this step.
 * The order of the arraylist of outputs,especially for multi-output transaction,is fuzzy for its rule.In which order should we place them?
 ## Homework_1 attention
-* this project's test cases are TestClass.  
+* This project's test cases are TestClass.  
 * For simplification,I add 2 methods in Transaction.java `public static void genSignature()`  for generating public key,private key and signature and  `public void TXsignature(RSAPrivateKey privatekey, int inputindex)` for adding signature and generate transaction hash.
 ## Preparing for homework solution
 * Before coding,I read and realize the proposed java class and make notes bellow.I also add two methods in Transaction.java for simplifying my following solution of the homework.
