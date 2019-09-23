@@ -22,7 +22,9 @@ Name : JiaXi Ren
 * **test5()** test the situation when transaction's corresponding previous ouput is not in the utxopool.Verifying methods are the same as above.
 * **test6()** is an outpus-greater-than-inputs test,which means someone give exceeding coins to others he don't own.Verifying methods are the same as above.
 * **test7()**  specifily test `public  Transaction[] handleTxs(Transaction[] possibleTxs)` by adding a valid chain of transactions and some invalid or unrelated transactions in mess order,then verifying the valid Transaction[] and their numbers.
+* **test8()** 
+* **test9()** 
+* **test10()** 
 ## Test result
 * **Testing Results:** The Functions I created for verifying the 7 tests all pass and get expected results. Here is a screenshot in IntelliJ IDEA IDE:
-
-![Image of resultimage](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/resultimage.png)
+ ![Image of resultImage](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/resultImage.png)
