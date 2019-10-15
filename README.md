@@ -1,3 +1,5 @@
+## Homework-2 README is in the Homework2 file
+
 # PHBS_BlockChain_2019
 **BlockChain Homework_1 : Scrooge Coin**  
 Name : JiaXi Ren       
