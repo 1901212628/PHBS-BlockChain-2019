@@ -10,11 +10,11 @@ Name : JiaXi Ren
 ## Homework_2 attention
 * This project's test cases are TestClass. 
 * For simplification,I add my KeyPair Generater`private KeyPair KeyPair()` and Signature Generater`private Signature SignatureForSingleInputTx` directly in the TestClass.java.
-## Problems before finding solution of homework_2
+## Problems before finding solution of Homework_2
 * Take consideration of storage into account.
 * In which way that we store the structure of a Blockchain?As we know,Blockchain form as a tree rather than a list.
 * How can we assure the block we take is the oldest one when we get the current block?
-## Preparing for homework_2 solution
+## Preparing for Homework_2 solution
 * Before coding,I read and realize the proposed java class and make notes bellow.
 ## Sumary for Homework_2 solution
 ### 1.BlockChain.java
@@ -40,11 +40,17 @@ Name : JiaXi Ren
 * **test8()** Other three illegall block adding operation verification:add a genesis block,add an invalid block with invalid transaction,and add an invalid block with wrong previous hash.
 ## Test result
 * **Testing Results:** The Functions I created for verifying the 7 tests all pass and get expected results. Here is a screenshot in IntelliJ IDEA IDE:
-
-
-
-
-
+![Image of resultImage2](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/resultImage2.png)
+ <br />
+ <br />
+ <br /> 
+ <br />    
+ <br />        
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
 **BlockChain Homework_1 : Scrooge Coin**  
 
 ## Homework_1 description
