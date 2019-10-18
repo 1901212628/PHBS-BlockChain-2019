@@ -54,8 +54,8 @@ Name : JiaXi Ren
  <br />
  <br />
  <br />
-**BlockChain Homework_1 : Scrooge Coin**  
 
+**BlockChain Homework_1 : Scrooge Coin**  
 ## Homework_1 description
 * The homework need us to finish four part:create a public ledger that record current UTXO set by adding UTXOPool(upool);finish a function that verify the validation of the transactions;finish a function that digest unordered transactions and return legal ones;bulid a test class to test all your work.
 * As we learn in the class,ScroogeCoin avoid double spend attack problem compared to GoofyCoin result in centralizing environment.Two kinds of transactions:CreateCoins transaction and PayCoins transaction are included.Every transaction's validation and implement are confirmed by Scrooge,and the chain release by Scrooge too.Only Scrooge can create new ScroogeCoins based on CreateCoins transaction.
