@@ -40,7 +40,7 @@ Name : JiaXi Ren
 * **test7()** Test7 aim to verify BlockChain.java can return the oldest block when valid equal longest chain occur.
 * **test8()** Other three illegall block adding operation verification:add a genesis block,add an invalid block with invalid transaction,and add an invalid block with wrong previous hash.
 * **test9()** To verify a validation records of the CurrentNode when new block add in a new valid equal height block.
-* **test10()** To verify my limited storage function in UpdateHighestNode is right.
+* **test10()** To verify my limited storage function in UpdateHighestNode is right.Additional information is that we change the MAXIMUM_CUT_OFF for simplification,this will not affect the verification of the function.
 ## Test result
 * **Testing Results:** The Functions I created for verifying the 7 tests all pass and get expected results. Here is a screenshot in IntelliJ IDEA IDE:
 ![Image of resultImage2](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/resultImage2.png)
