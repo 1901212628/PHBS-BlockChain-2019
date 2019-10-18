@@ -26,10 +26,11 @@ Name : JiaXi Ren
 * From second task to fourth task are easy,I simply return `CurrentNode.getBlock()`,`CurrentNode.getUtxoPool()`and`new TransactionPool(TxPool)` relatively.
 * Five task,in my opinion,is the most difficult part in this homework.It requires us to verify block's validation and add the block into BlockChain if it pass the verification,and then return true.
 * Four parts for us to verify:whether the block is a genesis block;whether the transactions in the block are all valid;whether the block have appropriate prevhash and whether it insert in a permitted position.
+* Emphasis on inserting a block in permitted position,this means not only CUT_OF_AGE restriction but also MAXIMUM_CUT_OFF restriction,which means you can't add a block whose parent block has been cut off for saving storage space.
 * After verifying all this,add the block into BlockChain,update BlockChain,UTXOPool and TransactionPool.Finally return true.
 * Sixth task I simply return`TxPool.addTransaction(tx)`.
 ### 2.TestClass
-**Eight independent tests are in TestClass.java for testing,here are their description:**
+**Ten independent tests are in TestClass.java for testing,here are their description:**
 * **test1()** We verify a simple occasion that the BlockChain only contains a genesis block,verify all the conditions that are in BlockChian.java.
 * **test2()** We add another valid block over genesis block for verification.The procedure of verification is the same as test1
 * **test3()** As Homework_2 regulation,verifying the validation of the spend of coinbase transaction in the next block.
@@ -38,6 +39,8 @@ Name : JiaXi Ren
 * **test6()** Test6 aim to verify whether a transaction is removed from TransactionPool after adding in a valid block.
 * **test7()** Test7 aim to verify BlockChain.java can return the oldest block when valid equal longest chain occur.
 * **test8()** Other three illegall block adding operation verification:add a genesis block,add an invalid block with invalid transaction,and add an invalid block with wrong previous hash.
+* **test9()** To verify a validation records of the CurrentNode when new block add in a new valid equal height block.
+* **test10()** To verify my limited storage function in UpdateHighestNode is right.
 ## Test result
 * **Testing Results:** The Functions I created for verifying the 7 tests all pass and get expected results. Here is a screenshot in IntelliJ IDEA IDE:
 ![Image of resultImage2](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/resultImage2.png)
