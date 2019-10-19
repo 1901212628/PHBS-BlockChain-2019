@@ -10,6 +10,7 @@ Name : JiaXi Ren
 ## Homework_2 attention
 * This project's test cases are TestClass. 
 * For simplification,I add my KeyPair Generater`private KeyPair KeyPair()` and Signature Generater`private Signature SignatureForSingleInputTx` directly in the TestClass.java.
+* For users,they should test BlockHandler.java at TestClass.While our task is to complete BlockChain.java.For simplification,I test BlockChain.java functions directly.This may not effect the final outcome.
 ## Problems before finding solution of Homework_2
 * Take consideration of storage into account.
 * In which way that we store the structure of a Blockchain?As we know,Blockchain form as a tree rather than a list.
