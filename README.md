@@ -5,10 +5,10 @@ Name : JiaXi Ren
 名字：任嘉曦
 
 ## Homework_2 description
-* The homework mainly include three parts:add our TxHandler.java from Homewok_1 and make some appropriate modification;finsh blockchain.java class;create a test class to verify your work is correct.
+* The homework mainly include three parts:add our TxHandler.java from Homewok_1 and make some appropriate modification;finsh blockchain.java class;create a test class to verify whether my work is correct.
 * In this homework,we actually act as an miner in BlockChain net work.Here is some different:we verify heard transactions and blocks,but we don't verify proof-of-work section of a block.We maintain BlockChain and cut the very former ones.We don't compute nonce in this case,we act more like a Bitcoin Community volunteer rather than a miner.
 ## Homework_2 attention
-* This project's test cases are TestClass. 
+* This project's test cases are in the Test file. 
 * For simplification,I add my KeyPair Generater`private KeyPair KeyPair()` and Signature Generater`private Signature SignatureForSingleInputTx` directly in the TestClass.java.
 * For users,they should test BlockHandler.java at TestClass.While our task is to complete BlockChain.java.For simplification,I test BlockChain.java functions directly.This may not effect the final outcome.
 ## Problems before finding solution of Homework_2
