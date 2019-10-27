@@ -137,6 +137,7 @@ Overall, the solution learns a lot from the design of Ethereum. Though the whole
 **why such solution but not other alternative**
 
 In this part, we would like to discuss the essential of introducing block chain other than any centralized business solution.
+
 **Decrease cost of involvement** To participate in a public chain, the cost will be much lower than traditional negotiation, moreover, most farmers in China may not have such resource and ability do such negotiation.
 
 **Comparative advantage** In economics, it is always recommended to exert comparative advantage whenever possible. Nowadays, most farmers do both producing and merchandising. This behavior cut oﬀ their potential (and rational) proﬁt.
