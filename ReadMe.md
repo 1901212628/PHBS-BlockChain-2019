@@ -84,7 +84,7 @@ Validator are responsible for checking transactions uploaded by users. Also the 
 Citizens. With the relatively lowest authority, can only send request to view authorized part of information.
 
 ### Example: record an event
-![Record an event](support_figures/example1.png)
+![Record an event](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/example1.png)
 
 
 ### Example: structure of roles' relationship
