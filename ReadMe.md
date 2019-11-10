@@ -88,7 +88,7 @@ Citizens. With the relatively lowest authority, can only send request to view au
 
 
 ### Example: structure of roles' relationship
-![structure of roles' relationship](support_figures/example2.png)
+![structure of roles' relationship](https://github.com/JiaXi-Ren/PHBS_BlockChain_2019/blob/master/example2.png)
 
 
 
